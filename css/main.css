@@ -1,9 +1,12 @@
-body { margin: 60px auto; width: 50%; }
+body {
+  width: 300px;
+  margin: auto;
+} 
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
 
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #333; }
+p, ul { font-size: 11pt; line-height: 1.2em; color: #333; }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
 h1 { font-size: 3em;  }
