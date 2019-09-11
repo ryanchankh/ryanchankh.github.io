@@ -35,7 +35,7 @@ ___
 - **Description**:<br>
 abcdeft
 
-<a href="./projects.md">more papers and projects</a>
+<a href="./projects.html">more papers and projects</a>
 
 ___
 ## Education

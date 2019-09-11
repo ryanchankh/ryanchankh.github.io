@@ -1,3 +1,8 @@
+---
+title: homepage 
+layout: default
+---
+
 # Projects
 ### Subpsace Locally Competitive Algorithm
 - **Status**: In Progress
