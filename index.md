@@ -41,7 +41,7 @@ ___
 	- Created an API for testing model robustness to diverse input images and adversarial examples
 	- Presented to other researchers on new adversarial attacks and security flaws in deep learning
 
-<h3><i><a href="./projects.html">more past projects</a></i></h3>
+### _[more projects](./projects.html)_
 
 ___
 ## EDUCATION
@@ -57,7 +57,7 @@ ___
 - **_Expected Graduation: December 2019_**
 - **Related Coursework**:	High-Dim Data Analysis with Low-Dim Models, Machine Learning, Efficient Algorithms, Data Structures, Probability, Statistics, Neural Computation, Linear Algebra, Topology
 
-<h3><i><a href="./education.html">more education</a></i></h3>
+### _[more education](./education.html)_
 
 ___
 ## Past Activities and Organizations
