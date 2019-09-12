@@ -27,7 +27,7 @@ ___
 	</b><br>
 	<i>
 		A.S.T. in Mathematics<br>
-		A.S. in Mathematics, Engineering & Technology<br>
+		A.S. in Engineering & Technology<br>
 		A.S. in Naural Sciences
 	</i>
 </font>
