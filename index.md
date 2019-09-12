@@ -13,7 +13,6 @@ layout: default
 <a href="./RyanChanResume.pdf" download="resume">Resume</a>
 </center>
 
-_Still updating this website_
 
 ## CURRENT STATUS
 Seeking full-time employment in AI research or engineering roles that starts in January 2020. I am interested in understanding artificial intelligence and deep learning through the lens of differential topology and geometry, adversarial attacks, and high-dimensional data analysis, and neuroscience. I am currently working on analyzing adversarial examples in facial recognition models as a first author and aiming to publish the paper by October 2019. 
@@ -91,6 +90,9 @@ ___
 
 - Supervisor/Mentor: Alfred Shen
 - Working on local attacks on ArcFace (see Project)
+- Letter of Recommendation ready upon request
+
+### _[more experience](./experience.html)_
 
 ___
 
@@ -111,4 +113,6 @@ ___
 	- **Operating Systems:** Windows, Ubuntu, macOS
 	- **Word Processing**: Microsoft Word, Excel, Powerpoint
 - **Verbal & Written Language**: English, Chinese, Cantonese
+
+___
 
