@@ -55,6 +55,7 @@ ___
 </font>
 
 - **_Expected Graduation: December 2019_**
+- **Applied Math Cluster: Eletrical Engineering & Computer Science** (custom, approved)
 - **Related Coursework**:	High-Dim Data Analysis with Low-Dim Models, Machine Learning, Efficient Algorithms, Data Structures, Probability, Statistics, Neural Computation, Linear Algebra, Topology
 
 ### _[more education](./education.html)_
