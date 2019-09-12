@@ -15,37 +15,50 @@ layout: default
 
 _Still updating this website_
 
-## Current Status
-Seeking full-time employment in AI research or engineering roles that starts in January 2019. I am interested in understanding artificial intelligence and deep learning through the lens of differential topology and geometry, adversarial attacks, and high-dimensional mathematical analysis, and neuroscience. I am currently working on a academic paper on analyzing adversarial examples on facial recognition models as a first author and aiming to publish it by October 2019. 
+## CURRENT STATUS
+Seeking full-time employment in AI research or engineering roles that starts in January 2020. I am interested in understanding artificial intelligence and deep learning through the lens of differential topology and geometry, adversarial attacks, and high-dimensional data analysis, and neuroscience. I am currently working on analyzing adversarial examples in facial recognition models as a first author and aiming to publish the paper by October 2019. 
 
-**Research Interests**: Artificial Intelligence and Deep Learning, High-Dim Mathematical Analysis, Differential Topology and Geometry, Adversarial Attacks, and Neural Networks
-
-___
-## Papers and Projects
-### Subpsace Locally Competitive Algorithm
-- **Status**: In Progress
-- **Location**: Redwood Center for Theoretical Neuroscience, Univeristy of California, Berkeley<br>
-- **Description**:<br>
-abcdeft
+**Research Interests**: Artificial Intelligence, Deep Learning, Mathematical Analysis on High-Dimensional Spaces, Differential Topology and Geometry, Adversarial Attacks, and Neural Networks
 
 ___
-### Understanding Facial Recognition through Local Feature Attacks
-- **Status**: In Progress
-- **Location**: 
-- **Description**:<br>
-abcdeft
+## PROJECTS
+### [Paper] Subspace Locally Competitive Algorithm (In-Progress)
+- **Affiliation**: Redwood Center for Theoretical Neuroscience - Berkeley, CA
+- **Mentor**: Dylan M. Paiton
+- **Description**:
+	- Generated figures for this new academic paper to be published as a contributing author
+	- Analyzed plots and contributed to insights in weekly research meetings
+	- Contributed to mentor’s open source deep learning repository on GitHub
+	- Compared code in open source library Tensorflow and verified outputs with different implementations
 
-<a href="./projects.html">more papers and projects</a>
+
+### [Paper] Understanding Facial Recognition through Local Feature Attacks (In-Progress)
+- **Affiliation**: Huawei Technologies - Shenzhen, China
+- **Mentor**: Alfred Shen
+- **Description**:
+	- Generated experimental results for this academic paper to be published as first author
+	- Deployed an end-to-end AI pipeline and systems for real-life applications
+	- Created an API for testing model robustness to diverse input images and adversarial examples
+	- Presented to other researchers on new adversarial attacks and security flaws in deep learning
+
+<i><h3><a href="./projects.html">more past projects</a></h3></i>
 
 ___
-## Education
+## EDUCATION
+<font size="4">
+	<b>
+		University of California, Berkeley
+	</b><br>
+	<i>
+		B.A. in Applied Mathematics
+	</i>
+</font>
 
-<strong><font size="4"> University of California, Berkeley</font></strong><br>
-<i>Expected Graduation: December 2019</i><br><br>
-**Related Coursework**:	High-Dim Data Analysis with Low-Dim Models, Machine Learning, Efficient Algorithms, Data Structures, Probability, Statistics, Neural Computation, Linear Algebra, Topology
+- **_Expected Graduation: December 2019_**
+- **Related Coursework**:	High-Dim Data Analysis with Low-Dim Models, Machine Learning, Efficient Algorithms, Data Structures, Probability, Statistics, Neural Computation, Linear Algebra, Topology
 
-<a href="./education.md">more education</a>
+<i><h3><a href="./education.md">more education</a></h3></i>
 
 ___
-## Past Activites and Organizations
+## Past Activities and Organizations
 working on it
