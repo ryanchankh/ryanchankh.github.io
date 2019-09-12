@@ -61,5 +61,54 @@ ___
 ### _[more education](./education.html)_
 
 ___
-## Past Activities and Organizations
-working on it
+## RESEARCH AND WORK EXPERIENCE
+<font size="4">
+	<span style="float:left;"><b>Undergraduate Researcher</b></span>
+	<span style="float:right;">June 2017 - Current</span>
+<br>
+	<i>
+	<span style="float:left;">Redwood Center for Theoretical Neuroscience @ UC Berkeley</span>
+	<span style="float:right;">Berkeley, CA</span>
+	</i>
+<br>
+</font>
+
+- Research Lab: Dr. Bruno Olshausen
+- Supervisor/Mentor: Dylan Paiton
+- Working on Subspace Logcally Competitive Algorithm (see Projects) 
+
+
+<font size="4">
+	<span style="float:left;"><b>Deep Learning Research Intern</b></span>
+	<span style="float:right;">June 2019 - August 2019</span>
+<br>
+	<i>
+	<span style="float:left;">AI Research Application Center @ Huawei Technologies</span>
+	<span style="float:right;">Shenzhen, China</span>
+	</i>
+<br>
+</font>
+
+- Supervisor/Mentor: Alfred Shen
+- Working on local attacks on ArcFace (see Project)
+
+___
+
+
+## SKILLS
+- **Programming Languages**: Python 3, Java (=>1.7), R
+- **Libraries & Frameworks**: 
+	- **ML/AI Related**: Tensorflow, Keras, PyTorch, MXNet, Sklearn
+	- **Visualizations**: Matplotlib, OpenCV
+	- **Data Analyis**: Jupyter Notebooks, Numpy, Scipy, JSON, Pickle
+	- **Cloud Services**: Amazon Web Services (AWS), Google Cloud Product (GCP)
+	- **Computing**: CUDA
+	- **Web Development**: HTML, CSS, Jekyll (beginner level, enough to make this website :p)
+- **Others**:
+	- **Developing Tools**: Git
+	- **Editing Software/IDE**: Vim + TMUX, IntelliJ
+	- **Scripting**: Bash, Shell
+	- **Operating Systems:** Windows, Ubuntu, macOS
+	- **Word Processing**: Microsoft Word, Excel, Powerpoint
+- **Verbal & Written Language**: English, Chinese, Cantonese
+
