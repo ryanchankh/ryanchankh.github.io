@@ -6,7 +6,7 @@ layout: default
 # PROJECTS
 ___
 
-### [Paper] Subpsace Locally Competitive Algorithm (In-Progress)
+### [Paper] Subpsace Locally Competitive Algorithm (Submitted for Review)
 - **Affiliation**: Redwood Center for Theoretical Neuroscience - Berkeley, CA
 - **Mentor**: Dylan M. Paiton
 - **Description**:
@@ -17,7 +17,7 @@ ___
 
 ___
 
-### [Paper] Understanding Facial Recognition through Local Feature Attacks (In-Progress)
+### [Paper] Localized Adversarial Attacks on Semantic Features in Facial Recognition (Work In Progress)
 - **Affiliation**: Huawei Technologies - Shenzhen, China
 - **Mentor**: Alfred Shen
 - **Description**:

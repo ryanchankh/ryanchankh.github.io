@@ -21,7 +21,7 @@ Seeking full-time employment in AI research or engineering roles that starts in 
 
 ___
 ## PROJECTS
-### [Paper] Subspace Locally Competitive Algorithm (In-Progress)
+### [Paper] Subspace Locally Competitive Algorithm (Submitted for Review)
 - **Affiliation**: Redwood Center for Theoretical Neuroscience - Berkeley, CA
 - **Mentor**: Dylan M. Paiton
 - **Description**:
@@ -31,7 +31,7 @@ ___
 	- Compared code in open source library Tensorflow and verified outputs with different implementations
 
 
-### [Paper] Understanding Facial Recognition through Local Feature Attacks (In-Progress)
+### [Paper] Localized Adversarial ATtacks on Semantic Features in Facial Recognition (Work in Progress)
 - **Affiliation**: Huawei Technologies - Shenzhen, China
 - **Mentor**: Alfred Shen
 - **Description**:
