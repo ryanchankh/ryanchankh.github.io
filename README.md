@@ -1,7 +1,4 @@
 # Ryan Chan's Personal Website 
 
-
-
-## Credits
-I made this website by learning from [Jonathan McGlone](http://jmcglone.com/guides/github-pages/) using [hankquinlan.github.io](https://github.com/hankquinlan). Thank you for making this possible. 
+Website created using Jekyll. Feel free to use my repo for reference, or fork one and make one your own :)
 
