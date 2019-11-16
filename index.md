@@ -15,9 +15,11 @@ layout: default
 
 
 ## CURRENT STATUS
-Seeking full-time employment in AI research or engineering roles that starts in January 2020. I am interested in understanding artificial intelligence and deep learning through the lens of differential topology and geometry, adversarial attacks, and high-dimensional data analysis, and neuroscience. I am currently working on analyzing adversarial examples in facial recognition models as a first author and aiming to publish the paper by October 2019. 
+Seeking full-time employment in AI research or engineering roles that starts in January 2020. I am interested in developing robust high-dimensional models. To get inspirations, I often look into differential geometry and topology, neuroscience, adversarial attacks, high-dimensional statistics, and robust low-dimsional tional methods.
 
 **Research Interests**: Artificial Intelligence, Deep Learning, Mathematical Analysis on High-Dimensional Spaces, Differential Topology and Geometry, Adversarial Attacks, and Neural Networks
+
+### _[papers I like](./papers.html)_
 
 ___
 ## PROJECTS
