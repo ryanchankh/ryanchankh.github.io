@@ -4,7 +4,7 @@ layout: default
 ---
 
 <center><img src="headshot.jpg" alt="headshot" width="200"/></center>
-<center><strong><font size="10">Ryan Chan</font></strong></center>
+<center><strong><font size="10">Kwan Ho Ryan Chan</font></strong></center>
 <center><strong>Email</strong>: ryanchankh (at) berkeley (dot) edu <br></center>
 <br>
 I am currently an undergraduate student at University of California, Berkeley. I am graduating in Fall 2019 and looking for full/part-time researcher/engineer positions after graduation. I am currently working with Yi Ma's group on l4-norm dictionary learning, which has wide applicataions in neuroscience and machine learning.
