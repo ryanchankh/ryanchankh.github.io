@@ -18,5 +18,6 @@ I am currently an undergraduate student at University of California, Berkeley. I
 [linkedin](https://www.linkedin.com/in/ryanchankh)
 [github](https://www.github.com/ryanchankh)
 [CV (online)](./online_resume.html)
+<a href="./cv.pdf" download="cv">CV (print)</a>
 
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
