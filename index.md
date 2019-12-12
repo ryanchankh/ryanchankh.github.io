@@ -20,4 +20,7 @@ I am currently an undergraduate student at University of California, Berkeley. I
 [CV (online)](./online_resume.html)
 <a href="./cv.pdf" download="cv">CV (print)</a>
 
+**Readings written by me :p**:
+1. L0-norm, L1-norm, L4-norm in n-Sphere [pdf](https://github.com/ryanchankh/L0L1L4NormSn/raw/master/writeup/main.pdf) [repo](https://github.com/ryanchankh/L0L1L4NormSn)
+
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
