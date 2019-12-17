@@ -17,10 +17,15 @@ I am currently an undergraduate student at University of California, Berkeley. I
 **Links**:
 [linkedin](https://www.linkedin.com/in/ryanchankh)
 [github](https://www.github.com/ryanchankh)
-[CV (online)](./online_resume.html)
-<a href="./cv.pdf" download="cv">CV (print)</a>
+<a href="./full_cv.pdf" download="cv">CV (detailed)</a>
+<a href="./cv.pdf" download="cv">CV (simple)</a>
 
-**Readings written by me :p**:
-1. L0-norm, L1-norm, L4-norm in n-Sphere [pdf](https://github.com/ryanchankh/L0L1L4NormSn/raw/master/writeup/main.pdf) [repo](https://github.com/ryanchankh/L0L1L4NormSn)
+**My Writeups :p**:
+
+1. L0-norm, L1-norm, L4-norm in n-Sphere 
+<a href="./writeups/L0L1L4NormSn.pdf" download="cv">pdf</a> 
+[repo](https://github.com/ryanchankh/L0L1L4NormSn)
+2. Breif Introduction to Independent Subspace Analysis 
+<a href="./writeups/Independent_Subspace_Analysis.pdf" download="cv">pdf</a>
 
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
