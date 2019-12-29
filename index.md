@@ -25,7 +25,9 @@ I am currently an undergraduate student at University of California, Berkeley. I
 1. L0-norm, L1-norm, L4-norm in n-Sphere 
 <a href="./writeups/L0L1L4NormSn.pdf" download="cv">pdf</a> 
 [repo](https://github.com/ryanchankh/L0L1L4NormSn)
-2. Breif Introduction to Independent Subspace Analysis 
+2. Brief Introduction to Independent Subspace Analysis 
 <a href="./writeups/Independent_Subspace_Analysis.pdf" download="cv">pdf</a>
+3. Artistic Style Transfer
+[repo](https://www.github.com/ryanchankh/style_transfer)
 
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
