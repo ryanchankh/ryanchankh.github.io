@@ -17,17 +17,18 @@ I am currently an undergraduate student at University of California, Berkeley. I
 **Links**:
 [linkedin](https://www.linkedin.com/in/ryanchankh)
 [github](https://www.github.com/ryanchankh)
-<a href="./full_cv.pdf" download="cv">CV (detailed)</a>
-<a href="./cv.pdf" download="cv">CV (simple)</a>
+[CV (detailed)](./full_cv.pdf)
+[CV (simple)](./cv.pdf)
 
-**My Writeups :p**:
-
-1. L0-norm, L1-norm, L4-norm in n-Sphere 
-<a href="./writeups/L0L1L4NormSn.pdf" download="cv">pdf</a> 
+**Blog Posts**:<br>
+[Dec 19] L0-norm, L1-norm, L4-norm in n-Sphere 
+[writeup](writeups/L0L1L4NormSn.pdf)
 [repo](https://github.com/ryanchankh/L0L1L4NormSn)
-2. Brief Introduction to Independent Subspace Analysis 
-<a href="./writeups/Independent_Subspace_Analysis.pdf" download="cv">pdf</a>
-3. Artistic Style Transfer
+<br>
+[Feb 19]Brief Introduction to Independent Subspace Analysis 
+[writeup](./writeups/Independent_Subspace_Analysis.pdf)
+<br>
+[Oct 17] Artistic Style Transfer
 [repo](https://www.github.com/ryanchankh/style_transfer)
 
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
