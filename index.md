@@ -5,16 +5,9 @@ layout: default
 
 <center><img src="headshot.jpg" alt="headshot" width="200"/></center>
 <center><strong><font size="10">Kwan Ho Ryan Chan</font></strong></center>
+<center>*I go by Ryan*</center>
 <center><strong>Email</strong>: ryanchankh (at) berkeley (dot) edu <br></center>
 <br>
-
-**Bio**: <br>
-I am recent UC Berkeley graduate, with a BA in Applied Mathematics. I spent the first two years of my research career in Bruno Olshausen's lab, studying vision systems and sparse coding and supervised by Dylan Paiton. In Summer 2019, I researched for Huawei's AI Application Research Center, mainly focused on building adversarial robustness in facial recognition systems. I am currently researching in Yi Ma's lab, working with Simon Zhai and studying properties of nonconvex optimization, and its applications in overcomplete dictionary learning and optimal transport.
-
-**Research Interests**: <br>
-I am interested in using the power of mathematics to provide machine learning algorithms theoretical guarantees such as robustness and efficiency. My current focus is on applying low-rank and sparse methods to optimal transport, which has wide applications in economics, statistics, and Generative Adversarial Networks. I am also practicing the ability to translate observations in data to theoretical properties and finding intuitive and explainable applications of machine learning algorithms. My intuition often comes from control theory, neuroscience, physics, linear and nonlinear dynamics, etc. 
-
-
 
 **Links**:
 [linkedin](https://www.linkedin.com/in/ryanchankh)
@@ -22,12 +15,23 @@ I am interested in using the power of mathematics to provide machine learning al
 [CV (detailed)](./full_cv.pdf)
 [CV (simple)](./cv.pdf)
 
+**Bio**: <br>
+I am currently a researcher at the Lawrence Livermore National Laboratory, mostly working on data science projects related to calculating risk factors of COVID19 patients, prognosis of energy grid incipient failure, and developing principles for interpretable and explainable AI. I graduated from University of California, Berkeley with a BA in Applied Mathematics (EECS). Since November 2019, I have been working in Yi Ma's lab, researching on topics such as low dimensional models in deep learning, nonconvex optimization, and dictionary learning. Before that, I researched with Dylan Paiton at Bruno Olshausen lab, working on sparse coding theory such as Locally Competitive Algorithm.  
+
+**Research Interests**: <br>
+I am interested in building principally designed machine learning algorithms that balance between theory and application. On one hand, theory provides us mathematical tools to make theoretical guarantees such as robustness, convergence rates, transferability, etc. On the other hand, application provides us empirical examination of engineering properties and practical implications using real-life data. Both are equally important and supports each other, making machine learning interpretable and explainable. To give this relationship a fancy term between this balance, I call it the "hermeneutics of machine learning." 
+
+**Publications:** <br>
+2. coming soon... under review<br>
+1. Subspace Locally Competitive Algorithms (2019) [link](https://redwood.berkeley.edu/wp-content/uploads/2020/05/paiton2020subspace.pdf)<br> Dylan M. Paiton, Steven Shepard, **Kwan Ho Ryan Chan**, Bruno A. Olshausen
+ 
+
 **Blog Posts**:<br>
 [Dec 19] L0-norm, L1-norm, L4-norm in n-Sphere 
 [writeup](writeups/L0L1L4NormSn.pdf)
 [repo](https://github.com/ryanchankh/L0L1L4NormSn)
 <br>
-[Feb 19]Brief Introduction to Independent Subspace Analysis 
+[Feb 19] Brief Introduction to Independent Subspace Analysis 
 [writeup](./writeups/Independent_Subspace_Analysis.pdf)
 <br>
 [Oct 17] Artistic Style Transfer
