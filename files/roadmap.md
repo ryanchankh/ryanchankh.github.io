@@ -5,7 +5,7 @@ layout: default
 
 
 # My Research Roadmap
-*I have been meaning to keep a list of research topic "phases" I have had since the beginning of my research journey. Hopefully this gives a good idea to people interested in pursuing a research career what it's like. I'll try to update this as often as I can.*
+*I have been meaning to keep a list of research topic "phases" since the beginning of my research journey. Hopefully this gives a good idea to people interested in pursuing a research career what it's like. I'll try to update this as often as I can.*
 
 - [06/2020] Worked on a paper with Yi and Yaodong Yu. Just submitted to NeurIPS. More info on that later.
 
