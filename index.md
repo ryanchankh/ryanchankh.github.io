@@ -13,8 +13,8 @@ layout: default
 [linkedin](https://www.linkedin.com/in/ryanchankh) |
 [github](https://www.github.com/ryanchankh) |
 [gscholar](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en) |
-[CV](./files/full_cv.pdf) |
-[roadmap](./files/roadmap.md)
+[CV](./full_cv.pdf) |
+[roadmap](./roadmap.md)
 
 **Bio**: <br>
 I am currently a machine learning researcher (post college appointee) at the Lawrence Livermore National Laboratory, mostly working on data science projects related to calculating risk factors of COVID19 patients, prognosis of energy grid incipient failure, and developing principles for interpretable and explainable AI. I graduated from University of California, Berkeley with a BA in Applied Mathematics (EECS). Since November 2019, I have been working in Yi Ma's lab, researching on topics such as low dimensional models in deep learning, nonconvex optimization, and dictionary learning. Before that, I researched with Dylan Paiton at Bruno Olshausen lab, working on sparse coding theory such as Locally Competitive Algorithm.  
