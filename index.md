@@ -23,7 +23,7 @@ I am currently a machine learning researcher (post college appointee) at the Law
 I am interested in building principally designed machine learning algorithms that strikes a balance between theory and application. On one hand, theory provides us mathematical tools to make theoretical guarantees such as robustness, convergence rates, transferability, etc. On the other hand, application provides us empirical examination of engineering properties and practical implications using real-life data. Both are equally important and supports each other, making machine learning interpretable and explainable. To give this relationship a fancy term between this balance, I call it the "hermeneutics of machine learning." 
 
 **Publications:** <br>
-[2020] Yaodong Yu, Kwan Ho Ryan Chan, Chong You, Chaobing Song, Yi Ma. **Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction**. In submission. ([arxiv](https://arxiv.org/abs/2006.08558)) <br>
+[2020] Yaodong Yu\*, Kwan Ho Ryan Chan\*, Chong You, Chaobing Song, Yi Ma. **Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction**. In submission. ([arxiv](https://arxiv.org/abs/2006.08558)) <br>
 [2019] Dylan M. Paiton, Steven Shepard, **Kwan Ho Ryan Chan**, Bruno A. Olshausen. **Subspace Locally Competitive Algorithms**. NICE Workshop. ([link](https://redwood.berkeley.edu/wp-content/uploads/2020/05/paiton2020subspace.pdf))<br> 
  
 
