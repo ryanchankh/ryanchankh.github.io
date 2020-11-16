@@ -10,7 +10,7 @@ layout: default
 <br>
 
 **Links**:
-[linkedin](https://www.linkedin.com/in/ryanchankh) |
+<!--[linkedin](https://www.linkedin.com/in/ryanchankh) |-->
 [github](https://www.github.com/ryanchankh) |
 [gscholar](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en) |
 [CV](./full_cv.pdf) |
@@ -20,11 +20,17 @@ layout: default
 I am currently a machine learning researcher (post college appointee) at the Lawrence Livermore National Laboratory, mostly working on data science projects related to calculating risk factors of COVID19 patients, prognosis of energy grid incipient failure, and developing principles for interpretable and explainable AI. I graduated from University of California, Berkeley with a BA in Applied Mathematics (EECS). Since November 2019, I have been working in Yi Ma's lab, researching on topics such as low dimensional models in deep learning, nonconvex optimization, and dictionary learning. Before that, I researched with Dylan Paiton at Bruno Olshausen lab, working on sparse coding theory such as Locally Competitive Algorithm.  
 
 **Research Interests**: <br>
-I am interested in building principally designed machine learning algorithms that strikes a balance between theory and application. On one hand, theory provides us mathematical tools to make theoretical guarantees such as robustness, convergence rates, transferability, etc. On the other hand, application provides us empirical examination of engineering properties and practical implications using real-life data. Both are equally important and supports each other, making machine learning interpretable and explainable. To give this relationship a fancy term between this balance, I call it the "hermeneutics of machine learning." 
+I am interested in both the theory and practice of Deep Learning, especially 1) the development of algorithms for generalizable, robust, and interpretable models using tools from classical low-dimensional methods and new fields such as information theory and high-dimensional statistics; and 2) the application of data-driven models in practical fields such as neuroscience and healthcare for better understanding and solution to real-life problems.
 
-**Publications:** <br>
-[2020] Yaodong Yu\*, Kwan Ho Ryan Chan\*, Chong You, Chaobing Song, Yi Ma. **Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction**. In submission. ([arxiv](https://arxiv.org/abs/2006.08558)) <br>
-[2019] Dylan M. Paiton, Steven Shepard, **Kwan Ho Ryan Chan**, Bruno A. Olshausen. **Subspace Locally Competitive Algorithms**. NICE Workshop. ([link](https://redwood.berkeley.edu/wp-content/uploads/2020/05/paiton2020subspace.pdf))<br> 
+**Publications:**
+
+- *(preprint)* <u>Kwan Ho Ryan Chan</u>\*,  Yaodong  Yu\*,  Chong  You\*,  Haozhi  Qi,  John  Wright, Yi Ma. *Deep Networks from the Principle of Rate Reduction*. 2020. ([paper](https://arxiv.org/pdf/2010.14765.pdf))
+- **[NeurIPS'20]** Yaodong Yu\*, <u>Kwan Ho Ryan Chan</u>\*, Chong You, Chaobing Song, and Yi Ma. *Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction*. Neural Information Processing Systems, 2020.
+([paper](https://proceedings.neurips.cc/paper/2020/file/6ad4174eba19ecb5fed17411a34ff5e6-Supplemental.pdf))
+([code](https://github.com/ryanchankh/mcr2)) <br>
+- **[NICE'20]** Dylan M. Paiton, Steven Shepard, <u>Kwan Ho Ryan Chan</u>, and Bruno A. Olshausen. *Subspace Locally Competitive Algorithms*.  Proceedings of the Neuro-Inspired Computational Elements Workshop, 2020. 
+([paper](https://dl.acm.org/doi/abs/10.1145/3381755.3381765))
+([code](https://github.com/dpaiton/DeepSparseCoding/tree/lca_subspace))
  
 
 **Blog Posts**:<br>
@@ -40,10 +46,10 @@ I am interested in building principally designed machine learning algorithms tha
 
 **Fun Facts**:
 - Feel free to email on research and professional advice, or ask me about how I survived undergrad, etc. <br>
-- I am applying for PhD in 2020, hopefully can start in June 2021. <br>
+- I am applying for PhD in Fall 2021, hopefully can start in June 2021. <br>
 - My hobbies are playing piano, reading math books and playing video games (yes I have fun). <br>
 - I am from Hong Kong, and I speak fluent Cantonese and Mandarin. More specifically, I think about math in English, but I order Chinese food in Canto or Mandarin, depending on the situation. I won't tell you my Chinese name, but it has 3 characters; one has a part means gold, another has a part means water. <br>
-- I want to be a professor one day. I want to inspire others. 
+- I want to be a professor one day.
 - I want to start writing my PhD thesis when I have time, hopefully turning it into a book one day. 
 
 **Special Thanks**: I want to take the opporuntiy to thank my family for the support they have given me. 
