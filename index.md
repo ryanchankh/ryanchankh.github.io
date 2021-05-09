@@ -22,7 +22,7 @@ layout: default
 
 ### Bio
 <!--**Bio**: <br>-->
-I am a first-year PhD student at John Hopkins University, currently supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore National Lab. 
+I am a first-year PhD student at John Hopkins University, supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore National Lab. 
 
 <!--**Research Interests**: <br>-->
 ### Research Interests
@@ -49,7 +49,8 @@ I am interested in the theory and practice of Deep Learning, especially 1). To b
 ### Fun facts and others
 - Feel free to email on research and professional advice, or ask me about how I survived undergrad, etc. <br>
 - My hobbies are playing piano, reading math books and playing video games (yes I have fun). <br>
-- I am from Hong Kong, and I speak fluent Cantonese and Mandarin. More specifically, I think about math in English, but I order Chinese food in Canto or Mandarin, depending on the situation. I won't tell you my Chinese name, but it has 3 characters; one has a part means gold, another has a part means water. 
+- I am from Hong Kong, and I speak fluent Cantonese and Mandarin. More specifically, I think about math in English, but I order Chinese food in Canto or Mandarin, depending on the situation.
+- My chinese name is 陳鈞浩 (陈钧浩). 
 - I want to take the opporuntiy to thank my family for the support they have given me. 
 
 
