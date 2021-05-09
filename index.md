@@ -7,17 +7,22 @@ layout: default
 <center><strong><font size="10">Kwan Ho Ryan Chan</font></strong></center>
 <center><i>I go by Ryan. (He, Him, His)</i></center>
 <center><strong>Email</strong>: ryanchankh (at) berkeley (dot) edu <br></center>
-<center>[linkedin](https://www.linkedin.com/in/ryanchankh) | 
-[github](https://www.github.com/ryanchankh) | 
-[gscholar](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en) |
-[cv](./files/cv.pdf)
+<center>
+<a href="https://www.linkedin.com/in/ryanchankh">linkedin</a> | 
+<a href="https://www.github.com/ryanchankh">github</a> | 
+<a href="https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en">gscholar</a> | 
+<a href="./files/cv.pdf">cv</a> 
 </center>
 <br>
 
+<!--[linkedin](https://www.linkedin.com/in/ryanchankh) | 
+[github](https://www.github.com/ryanchankh) | 
+[gscholar](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en) |
+[cv](./files/cv.pdf)-->
 
 ### Bio:
 <!--**Bio**: <br>-->
-I am a first-year PhD student at John Hopkins University, currently supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore Natinoal Lab. 
+I am a first-year PhD student at John Hopkins University, currently supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore National Lab. 
 
 <!--**Research Interests**: <br>-->
 ### Research Interests
@@ -47,4 +52,6 @@ _Preprints_ <br>
 - I am from Hong Kong, and I speak fluent Cantonese and Mandarin. More specifically, I think about math in English, but I order Chinese food in Canto or Mandarin, depending on the situation. I won't tell you my Chinese name, but it has 3 characters; one has a part means gold, another has a part means water. 
 - I want to take the opporuntiy to thank my family for the support they have given me. 
 
-######Last Updated this website:  8 May 2021
+
+<p style="color:#808080">Last Updated this website: 8 May 2021</p>
+
