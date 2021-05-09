@@ -1,11 +1,11 @@
 body, html {
-  position: relative;
-  margin-left:15%;
-  margin-right:15%;
-  margin-bottom:1%;
-  margin-top:1%;
-
   font:"Arial, Helvetica, sans-serif";
+  
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1%;
+  margin-top: 1%;
 }
 
 footer {

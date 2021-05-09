@@ -30,7 +30,7 @@ I am interested in the theory and practice of Deep Learning, especially 1). To b
 
 <!--**Publications:**-->
 ### Publications
-_Conferences and Workshops_ <br>
+***Conferences and Workshops*** <br>
 
 - **[NeurIPS'20]** Yaodong Yu\*, <u>Kwan Ho Ryan Chan</u>\*, Chong You, Chaobing Song, and Yi Ma. *Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction*. Neural Information Processing Systems, 2020.
 ([paper](https://proceedings.neurips.cc/paper/2020/file/6ad4174eba19ecb5fed17411a34ff5e6-Supplemental.pdf))
@@ -39,7 +39,7 @@ _Conferences and Workshops_ <br>
 ([paper](https://dl.acm.org/doi/abs/10.1145/3381755.3381765))
 ([code](https://github.com/dpaiton/DeepSparseCoding/tree/lca_subspace))
  
-_Preprints_ <br>
+***Preprints*** <br>
 
 - <u>Kwan Ho Ryan Chan</u>\*, Yaodong Yu\*, Chong You\*, Haozhi Qi, John Wright, Yi Ma. *Deep Networks from the Principle of Rate Reduction*. 2020.
 ([paper](https://arxiv.org/abs/2010.14765)) ([code](https://github.com/ryanchankh/redunet))
