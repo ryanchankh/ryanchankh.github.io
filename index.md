@@ -32,6 +32,7 @@ I am interested in the theory and practice of Deep Learning, especially 1). To b
 ### Publications
 ***Conferences and Workshops*** <br>
 
+- **[AMLIES'21]** Alexander Ladd, <u>Kwan Ho Ryan Chan</u>, Sam Nguyen, Jose Cadena, Brenda Ng. *End-to-End Framework for Imputation and StateDiscovery in Longitudinal Energy Data*. 3rd International Workshop on Applied Intelligent Energy Systems, 2021.
 - **[NeurIPS'20]** Yaodong Yu\*, <u>Kwan Ho Ryan Chan</u>\*, Chong You, Chaobing Song, and Yi Ma. *Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction*. Neural Information Processing Systems, 2020.
 ([paper](https://proceedings.neurips.cc/paper/2020/file/6ad4174eba19ecb5fed17411a34ff5e6-Supplemental.pdf))
 ([code](https://github.com/ryanchankh/mcr2)) <br>
