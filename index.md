@@ -22,7 +22,7 @@ layout: default
 
 ### Bio
 <!--**Bio**: <br>-->
-I am a first-year PhD student at John Hopkins University, supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore National Lab. 
+I am a first-year PhD student at Johns Hopkins University, supervised by Prof. René Vidal (JHU) and Prof. Yi Ma (UC Berkeley). I am also a NSF Graduate Research Fellow. In 2019, I received my BA in Applied Mathematics from University of California, Berkeley. During my undergraduate studies, I was a research assistant at Prof. Yi Ma's group. I was also a machine learning researcher trainee at Lawrence Livermore National Lab. 
 
 <!--**Research Interests**: <br>-->
 ### Research Interests
