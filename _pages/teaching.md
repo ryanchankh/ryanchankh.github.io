@@ -7,7 +7,7 @@ nav_order: 6
 ---
 
 
-I was a teaching assistant for the following courses
+I was a teaching assistant for the following courses:
 
 - **Fall 2023 - Deep Generative Models - University of Pennsylvania**
   - Instructor: Professor René Vidal
