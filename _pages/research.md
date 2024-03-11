@@ -43,3 +43,5 @@ Deep Learning Biomedical applications are challenging to implement because data 
 3. Daniel H. Kwon, Jose Cadena, Sam Nguyen, Kwan Ho Ryan Chan, Braden Soper, Amy L. Gryshuk, Julian C. Hong, Priyadip Ray, Franklin W. Huang. **COVID‐19 outcomes in patients with cancer: Findings from the University of California health system database.** Cancer Medicine, 2022.
    
 [Back to Top](#jump-to)
+
+\*authors contributed equally. 
