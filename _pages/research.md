@@ -7,11 +7,11 @@ nav: true
 
 ## Jump to: 
 - [Google Scholar Page](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en&oi=ao)
-- [The Alignment of Machine Explanation and Human Interpretation](#the-alignment-of-machine-explanation-and-human-interpretation)
+- [Alignment of Machine Explanation and Human Interpretation](#alignment-of-machine-explanation-and-human-interpretation)
 - [Parsimonious Representation Learning](#parsimonious-representation-learning)
 - [Accessible and Implementable Deep Learning Biomedical Applications](#accessible-and-implementable-deep-learning-biomedical-applications)
 
-## The Alignment of Machine Explanation and Human Interpretation
+## Alignment of Machine Explanation and Human Interpretation
 
 The fundamental purpose all machine learning models share is that they are built for humans: we define a task, provide a data, and hope to uncover mysterious factors that drive prediction and utilize it to advance other purposes. One major barrier to actualize the potential of such models are how little we understand *why* they work. We approach this problem by building interpretable models: model’s explanations should not only be semantically meaningful, but grounded in reality and how humans understand. Just like how a doctor perform diagnoses on patients, how do we incorporate multi-modality? Question-answering? Grounded in evidence? We aim to bridge this gap with translational research across domain knowledge, statistics, linguistics, and philosophy. 
 
@@ -34,7 +34,7 @@ The fundamental purpose all machine learning models share is that they are built
 
 [Back to Top](#jump-to)
 
-## Accessible and Implementable Deep Learning Biomedical Applications
+## Accessible and Implementable Biomedical Applications
 
 Deep Learning Biomedical applications are challenging to implement because data and model assumptions are often too idealized and unrealistic, leaving room for error and making them less practical. Real-life considerations such as financial cost, population bias, measurement errors, missing values are often ignored, or even worse, substituted with false but seemingly true assumptions. To make biomedical machine learning truly implementable, we must work with clinicians and carefully determine the appropriate design for our problem. Only then, we have any hope for meaningful applications and trustworthy usage of deep learning models in clinical settings. Our goal is exactly such. 
 
