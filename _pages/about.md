@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>making predictions one explanation at a time</i>
+subtitle: <i>Making predictions one explanation at a time.</i>
 
 profile:
   align: left
