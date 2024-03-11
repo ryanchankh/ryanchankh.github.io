@@ -1,25 +1,30 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <i>one explanation at a time</i>
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: KwanHoRyanChan_Headshot.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
+
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a third-year Electrical and Systems Engineering PhD student at University of Pennsylvania, supervised by Prof. René Vidal. I am supported by Dean’s Fellow at UPenn and NSF Graduate Research Fellow. I received my BA in Applied Mathematics from University of California, Berkeley, and was a machine learning researcher at Lawrence Livermore National Lab. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests center on the development of trustworthy machine learning systems. I build frameworks and algorithms that imposes well-structured assumptions about the data, enforces the use of interpretable features, and generate human-aligned explanations. From small-scale medical problems to large-scale multi-modal challenges, the goal is to not only understand modern deep learning on both theoretical and practical fronts, but also make implementable, accessible, and intuitive to those who rely on such systems. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to contact me for potential collaborations and discussions on research. 
+
+**Email**: ryanckh (at) seas (d0t) upenn (d0t) edu<br>
+**Github**: <a href="https://www.github.com/ryanchankh">@ryanchankh</a> <br>
+**Linkedin**: <a href="https://www.linkedin.com/in/ryanchankh">in/ryanchankh</a> <br>
+**X** <a href="https://twitter.com/ryanchankh">@ryanchankh</a> <br>
+**Google Scholar**: <a href="https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en">Click Here.</a><br>
+**Semantic Scholar**: <a href="https://www.semanticscholar.org/author/Kwan-Ho-Ryan-Chan/1664623023"> Click Here. </a>
