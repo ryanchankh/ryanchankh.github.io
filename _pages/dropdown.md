@@ -9,6 +9,8 @@ children:
     permalink: /teaching/
   - title: Mentorship
     permalink: /mentorship/
+  - title: Service
+    permalink: /service/
   - title: Miscellaneous
     permalink: /social/
 ---
