@@ -7,11 +7,11 @@ nav: true
 
 ## Jump to: 
 - [Google Scholar Page](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en&oi=ao)
-- [Alignment of Machine Explanation and Human Interpretation](#alignment-of-machine-explanation-and-human-interpretation)
+- [Alignment of Machine Explanations and Human Interpretatiosn](#alignment-of-machine-explanations-and-human-interpretations)
 - [Parsimonious Representation Learning](#parsimonious-representation-learning)
-- [Accessible and Implementable Deep Learning Biomedical Applications](#accessible-and-implementable-deep-learning-biomedical-applications)
+- [Accessible and Implementable Biomedical Applications](#accessible-and-implementable-biomedical-applications)
 
-## Alignment of Machine Explanation and Human Interpretation
+## Alignment of Machine Explanations and Human Interpretations
 
 The fundamental purpose all machine learning models share is that they are built for humans: we define a task, provide a data, and hope to uncover mysterious factors that drive prediction and utilize it to advance other purposes. One major barrier to actualize the potential of such models are how little we understand *why* they work. We approach this problem by building interpretable models: model’s explanations should not only be semantically meaningful, but grounded in reality and how humans understand. Just like how a doctor perform diagnoses on patients, how do we incorporate multi-modality? Question-answering? Grounded in evidence? We aim to bridge this gap with translational research across domain knowledge, statistics, linguistics, and philosophy. 
 
@@ -24,7 +24,7 @@ The fundamental purpose all machine learning models share is that they are built
 
 ## Parsimonious Representation Learning
 
-*Classical machine learning makes observable and well-posed assumptions about the data distribution, laying sufficient ground work for transparent understanding of theoretical properties and practical performance for the task at hand.  On the extreme, modern deep learning makes little-to-none assumptions about the data, but find success by overpowering the model with insurmountable amount of data, making it challenging to have any guidance on basic properties such as choice of architecture and optimization method. The goal of learning parsimonious representations is to bridge the classics and the moderns, by finding reasonable and structured assumptions about the data and the task, hence allowing research opportunities for achieving both holistic theoretical understanding and strong practical performance.* 
+Classical machine learning makes observable and well-posed assumptions about the data distribution, laying sufficient ground work for transparent understanding of theoretical properties and practical performance for the task at hand.  On the extreme, modern deep learning makes little-to-none assumptions about the data, but find success by overpowering the model with insurmountable amount of data, making it challenging to have any guidance on basic properties and choices of architecture and optimization method. The goal of learning parsimonious representations is to bridge the old and the new, by finding reasonable and structured assumptions about the data and the task, hence allowing research opportunities for achieving both holistic theoretical understanding and strong practical performance.
 
 1. Kwan Ho Ryan Chan\*, Yaodong Yu\*, Chong You*, Haozhi Qi, John Wright, Yi Ma. **ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction.** Journal of Machine Learning Research, 2021.
 2. Yaodong Yu\*, Kwan Ho Ryan Chan\*, Chong You, Chaobing Song, and Yi Ma. **Learning Diverse and Discriminative Representations via the Principle of Maximal Coding Rate Reduction.** Neural Information Processing Systems, 2020. 
@@ -36,7 +36,7 @@ The fundamental purpose all machine learning models share is that they are built
 
 ## Accessible and Implementable Biomedical Applications
 
-Deep Learning Biomedical applications are challenging to implement because data and model assumptions are often too idealized and unrealistic, leaving room for error and making them less practical. Real-life considerations such as financial cost, population bias, measurement errors, missing values are often ignored, or even worse, substituted with false but seemingly true assumptions. To make biomedical machine learning truly implementable, we must work with clinicians and carefully determine the appropriate design for our problem. Only then, we have any hope for meaningful applications and trustworthy usage of deep learning models in clinical settings. Our goal is exactly such. 
+Deep Learning Biomedical applications are challenging to implement because data and model assumptions are often too idealized and unrealistic, leaving room for error and making them less practical. Real-life considerations such as financial cost, population bias, measurement errors, missing values are often ignored, or even worse, substituted with false but seemingly true assumptions. To make biomedical machine learning truly implementable, we must work with clinicians and carefully determine the appropriate design for our problem. Only then, we have any hope for meaningful applications and trustworthy usage of deep learning models in clinical settings. Our goal is exactly as such. 
 
 1. Sam Nguyen\*, Kwan Ho Ryan Chan\*, Braden Soper, Jose Cadena, Paul Kiszka, Lucas Womack, Mark Work, Joan M. Muggan, Steven T. Haller, Jennifer Hanrahan, David J. Kennedy, Deepa Mukundan, Priyadip Ray. **Budget Constrained Machine Learning for Early Prediction of Adverse Outcomes for COVID-19 Patients.** Scientific Reports by Nature, 2021.
 2. Braden C Soper, Jose Cadena, Sam Nguyen, Kwan Ho Ryan Chan, Paul Kiszka, Lucas Womack, Mark Work, Joan M Duggan, Steven T Haller, Jennifer A Hanrahan, David J Kennedy, Deepa Mukundan, Priyadip Ray. **Dynamic modeling of hospitalized COVID-19 patients reveals disease state–dependent risk factors**. Journal of the American Medical Informatics Association, 2022
