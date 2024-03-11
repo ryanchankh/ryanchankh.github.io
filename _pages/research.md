@@ -12,7 +12,12 @@ nav: true
 - [Accessible and Implementable Biomedical Applications](#accessible-and-implementable-biomedical-applications)
 
 ## Alignment of Machine Explanations and Human Interpretations
-
+<figure>
+    <center>
+    <img src="/assets/img/information_pursuit.png" alt="Information Pursuit Algorithm" width="50%" style="padding-bottom: 20px; display: block; border: none;"/>
+    <figcaption>Figure: Variational Information Pursuit Algorithm.</figcaption>
+    </center>
+</figure>
 The fundamental purpose all machine learning models share is that they are built for humans: we define a task, provide a data, and hope to uncover mysterious factors that drive prediction and utilize it to advance other purposes. One major barrier to actualize the potential of such models are how little we understand *why* they work. We approach this problem by building interpretable models: model’s explanations should not only be semantically meaningful, but grounded in reality and how humans understand. Just like how a doctor perform diagnoses on patients, how do we incorporate multi-modality? Question-answering? Grounded in evidence? We aim to bridge this gap with translational research across domain knowledge, statistics, linguistics, and philosophy. 
 
 1. Aditya Chattopadhyay\*, Kwan Ho Ryan Chan\*, René Vidal. **Bootstrapping Variational Information Pursuit with Foundation Models for Interpretable Image Classification.** The Twelve International Conference on Learning Representations, 2024.
@@ -23,7 +28,12 @@ The fundamental purpose all machine learning models share is that they are built
 [Back to Top](#jump-to)
 
 ## Parsimonious Representation Learning
-
+<figure>
+    <center>
+    <img src="/assets/img/parsimonious_reprentation.png" alt="Learning Representation of Linear Structures from Data lying on Union of Nonlinear Manifolds" width="50%" style="padding-bottom: 20px; display: block; border: none;"/>
+    <figcaption>Figure: Learning Representation of Linear Structures from Data lying on Union of Nonlinear Manifolds.</figcaption>
+    </center>
+</figure>
 Classical machine learning makes observable and well-posed assumptions about the data distribution, laying sufficient ground work for transparent understanding of theoretical properties and practical performance for the task at hand.  On the extreme, modern deep learning makes little-to-none assumptions about the data, but find success by overpowering the model with insurmountable amount of data, making it challenging to have any guidance on basic properties and choices of architecture and optimization method. The goal of learning parsimonious representations is to bridge the old and the new, by finding reasonable and structured assumptions about the data and the task, hence allowing research opportunities for achieving both holistic theoretical understanding and strong practical performance.
 
 1. Kwan Ho Ryan Chan\*, Yaodong Yu\*, Chong You*, Haozhi Qi, John Wright, Yi Ma. **ReduNet: A White-box Deep Network from the Principle of Maximizing Rate Reduction.** Journal of Machine Learning Research, 2021.
@@ -35,7 +45,12 @@ Classical machine learning makes observable and well-posed assumptions about the
 [Back to Top](#jump-to)
 
 ## Accessible and Implementable Biomedical Applications
-
+<figure>
+    <center>
+    <img src="/assets/img/implementable_biomedical.png" alt="Sequential Reasoning in Clinical Diagnoisis" width="50%" style="padding-bottom: 20px; display: block; border: none;"/>
+    <figcaption>Figure: Realistic Sequential Reasoning in Clinical Diagnoisis.</figcaption>
+    </center>
+</figure>
 Deep Learning Biomedical applications are challenging to implement because data and model assumptions are often too idealized and unrealistic, leaving room for error and making them less practical. Real-life considerations such as financial cost, population bias, measurement errors, missing values are often ignored, or even worse, substituted with false but seemingly true assumptions. To make biomedical machine learning truly implementable, we must work with clinicians and carefully determine the appropriate design for our problem. Only then, we have any hope for meaningful applications and trustworthy usage of deep learning models in clinical settings. Our goal is exactly as such. 
 
 1. Sam Nguyen\*, Kwan Ho Ryan Chan\*, Braden Soper, Jose Cadena, Paul Kiszka, Lucas Womack, Mark Work, Joan M. Muggan, Steven T. Haller, Jennifer Hanrahan, David J. Kennedy, Deepa Mukundan, Priyadip Ray. **Budget Constrained Machine Learning for Early Prediction of Adverse Outcomes for COVID-19 Patients.** Scientific Reports by Nature, 2021.
