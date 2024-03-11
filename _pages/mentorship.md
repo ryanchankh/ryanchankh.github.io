@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 ## Looking for Ambitious Students!
-I would not be here today if I did not have a series of truly amazing and inspiring mentors along the way. Since the beginning, my success is largely attributed to the teachers and friends who guided me. To pay it forward, I am open to mentor young and up-and-coming talents for interesting research projects, as well as struggling students who want some simple life advice. To contact me, please reach out via email.
+I would not be here today if I did not have a series of truly amazing and inspiring mentors along the way. My currently success is largely attributed to the teachers and friends who guided me conditionally. To pay it forward, I am open to mentor young and up-and-coming talents for interesting research projects, as well as struggling students who want some simple life advice. To contact me, please reach out via email.
 
 
 ### My Teaching and Mentoring Experience
@@ -20,5 +20,5 @@ I have tutored and mentored students from all ages:
 
 
 ### Remarks
-- Feel free to email on research and professional advice, such as applying for NSF GRFP.
+- I am also happy to provide tips on applying for NSF GRFP and related fellowships/scholarships.
 - Community College has largely shaped the foundation of who I am today. To those who are deciding between 4-year university or 2-year community college then transfer, I am a strong advocate of the latter.
