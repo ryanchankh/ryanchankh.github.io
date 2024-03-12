@@ -22,8 +22,14 @@ My research interests center on the development of trustworthy machine learning 
 
 Feel free to contact me for potential collaborations and discussions. 
 
-**Email**: ryanckh (at) seas (d0t) upenn (d0t) edu<br>
-**Github**: <a href="https://www.github.com/ryanchankh">@ryanchankh</a> <br>
-**Linkedin**: <a href="https://www.linkedin.com/in/ryanchankh">/in/ryanchankh</a> <br>
-**X:** <a href="https://twitter.com/ryanchankh">@ryanchankh</a> <br>
-**Google Scholar**: <a href="https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en">Click Here.</a><br>
+<table>
+  <tr>
+    <td>
+      <strong>Email</strong>: ryanckh (at) seas (d0t) upenn (d0t) edu<br>
+      <strong>Github</strong>: <a href="https://www.github.com/ryanchankh">@ryanchankh</a> <br>
+      <strong>Linkedin</strong>: <a href="https://www.linkedin.com/in/ryanchankh">/in/ryanchankh</a> <br>
+      <strong>X</strong>: <a href="https://twitter.com/ryanchankh">@ryanchankh</a> <br>
+      <strong>Google Scholar</strong>: <a href="https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en">Click Here.</a><br>
+    </td>
+  </tr>
+</table>
