@@ -16,7 +16,7 @@ I have tutored and mentored students from all ages:
 - K1-K12: I was a math tutor at mathnasium, teaching kids basic math skills from pre-algebra to calculus
 - High School: I was a tutor for students who did not pass the California High School Exit Exam (CAHSEE). I was also the tutor for senior students struggling in AP Calculus AB and BC.
 - College: I was the math tutor at the Math Resource Center at Pasadena City College (Later changed name to Math Success Center). I was also actively involved in student government, meeting deans and voting on curriculum changes (committee also known as Curriculum and Instruction).
-- PhD: I am part of UPenn's Graduate School Mentoring Initiative (GSMI), and mentor undergraduate students in preparation of applying to graduate school and the preparing of potential challenges. 
+- PhD: I am part of UPenn's Graduate School Mentoring Initiative (GSMI), and mentor undergraduate students in applying to graduate school and finding research directions. 
 
 
 ### Remarks
