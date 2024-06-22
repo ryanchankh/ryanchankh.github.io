@@ -8,7 +8,7 @@ nav_order: 6
 ---
 
 ## Find Me!
-I would not be here today if I did not have a series of truly amazing and inspiring mentors along the way. My currently success is largely attributed to the teachers and friends who guided me conditionally. To pay it forward, I am open to mentor young and up-and-coming talents for interesting research projects, as well as struggling students who want some simple life advice. To contact me, please reach out via email.
+I would not be here today if I did not have a series of truly amazing and inspiring mentors along the way. My currently success is largely attributed to the teachers and friends who guided me unconditionally. To pay it forward, I am open to mentor young and up-and-coming talents for interesting research projects, as well as struggling students who want some simple life advice. To contact me, please reach out via email.
 
 
 ### My Teaching and Mentoring Experience
