@@ -4,6 +4,6 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: cv_2024.pdf
-redirect_to: /assets/pdf/cv_2024.pdf
+cv_pdf: CurriculumVitae_KwanHoRyanChan_March2025.pdf
+redirect_to: /assets/pdf/CurriculumVitae_KwanHoRyanChan_March2025.pdf
 ---
