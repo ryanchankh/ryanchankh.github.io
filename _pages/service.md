@@ -9,6 +9,8 @@ nav_order: 6
 
 ## Reviewer
 I have served as a reviewer for the following conferences:
+- NeurIPS 2025
+- ICCV 2025
 - AISTATS 2025
 - AAAI 2025
 - ICLR 2025
@@ -20,8 +22,5 @@ I have served as a reviewer for the following conferences:
 - NeurIPS 2023
 - NeurIPS 2022
 - NeurIPS 2021
-
-## Workshops and Tutorials
-Coming Soon! 
 
 
