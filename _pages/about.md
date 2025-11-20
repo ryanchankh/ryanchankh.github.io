@@ -6,7 +6,7 @@ subtitle: <i>Making predictions one explanation at a time.</i>
 
 profile:
   align: left
-  image: KwanHoRyanChan_Headshot.jpg
+  image: KwanHoRyanChan_Headshot_small.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
