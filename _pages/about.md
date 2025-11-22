@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: <i>Making predictions one explanation at a time.</i>
+subtitle: <i>The Hermeneutics of Interpretability and Interactivity.</i>
 
 profile:
   align: left
-  image: KwanHoRyanChan_Headshot_small.jpg
+  image: /assets/img/KwanHoRyanChan_Headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
