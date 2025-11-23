@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ryanchankh.github.iohttps://ryanchankh.github.io/sitemap.xml
+Sitemap: https://ryanchankh.github.io/sitemap.xml
