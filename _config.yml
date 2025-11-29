@@ -120,8 +120,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Kwan Ho Ryan Chan # blog_name will be displayed in your blog page
-blog_description: Personal Website of Kwan Ho Ryan Chan
+blog_name: Theories but Not Really # blog_name will be displayed in your blog page
+blog_description: food-for-thought from ryan
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -275,8 +275,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: [] # these tags will be displayed on the front page of your blog
+display_categories: [] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
