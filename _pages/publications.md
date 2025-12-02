@@ -6,6 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-<meta http-equiv="refresh" content="0; url=https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en&oi=ao" />
+<meta http-equiv="refresh" content="0; url=https://scholar.google.com/citations?hl=en&user=3K09heEAAAAJ&view_op=list_works&authuser=3&sortby=pubdate" />
 
 <p><a href="https://scholar.google.com/citations?hl=en&user=3K09heEAAAAJ&view_op=list_works&authuser=3&sortby=pubdate">Redirect to Google Scholar</a></p>
