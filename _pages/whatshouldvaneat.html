@@ -1,0 +1,374 @@
+---
+layout: page
+title: "🍽️ What Should Van Eat?"
+permalink: /whatshouldvaneat
+nav: false
+sitemap: false
+---
+
+<style>
+  .wheel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 20px 0;
+  }
+
+  .wheel-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .wheel-pointer {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 30px solid #e74c3c;
+    z-index: 10;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  }
+
+  #wheelCanvas {
+    border-radius: 50%;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15), 0 0 0 6px #333, 0 0 0 9px #888;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .controls input[type="text"] {
+    flex: 1;
+    min-width: 180px;
+    padding: 10px 14px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.2s;
+  }
+
+  .controls input[type="text"]:focus {
+    outline: none;
+    border-color: #e74c3c;
+  }
+
+  .btn-add {
+    padding: 10px 20px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+
+  .btn-add:hover { background: #27ae60; }
+  .btn-add:active { transform: scale(0.96); }
+
+  .btn-spin {
+    padding: 14px 48px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    letter-spacing: 1px;
+  }
+
+  .btn-spin:hover { background: #c0392b; }
+  .btn-spin:active { transform: scale(0.96); }
+  .btn-spin:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+  }
+
+  .options-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    max-width: 500px;
+    min-height: 36px;
+  }
+
+  .option-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+
+  .option-tag .remove-btn {
+    background: none;
+    border: none;
+    color: #999;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0 2px;
+    line-height: 1;
+  }
+
+  .option-tag .remove-btn:hover { color: #e74c3c; }
+
+  .result-display {
+    font-size: 28px;
+    font-weight: 700;
+    color: #e74c3c;
+    min-height: 42px;
+    text-align: center;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.4s, transform 0.4s;
+  }
+
+  .result-display.show {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .hint-text {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+
+<div class="wheel-container">
+  <div class="controls">
+    <input type="text" id="optionInput" placeholder="Enter a food option..." />
+    <button class="btn-add" onclick="addOption()">Add</button>
+  </div>
+
+  <div class="options-list" id="optionsList"></div>
+
+  <div class="wheel-wrapper">
+    <div class="wheel-pointer"></div>
+    <canvas id="wheelCanvas" width="380" height="380"></canvas>
+  </div>
+
+  <button class="btn-spin" id="spinBtn" onclick="spinWheel()">SPIN!</button>
+
+  <div class="result-display" id="resultDisplay"></div>
+  <p class="hint-text" id="hintText">Add at least 2 options to spin the wheel!</p>
+</div>
+
+<script>
+(function() {
+  const COLORS = [
+    '#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6',
+    '#1abc9c', '#e67e22', '#34495e', '#16a085', '#c0392b',
+    '#2980b9', '#8e44ad', '#27ae60', '#d35400', '#7f8c8d',
+    '#f1c40f', '#e91e63', '#00bcd4', '#ff5722', '#607d8b'
+  ];
+
+  let options = [];
+  let currentRotation = 0;
+  let spinning = false;
+
+  const canvas = document.getElementById('wheelCanvas');
+  const ctx = canvas.getContext('2d');
+  const input = document.getElementById('optionInput');
+  const spinBtn = document.getElementById('spinBtn');
+  const resultDisplay = document.getElementById('resultDisplay');
+  const optionsList = document.getElementById('optionsList');
+  const hintText = document.getElementById('hintText');
+
+  input.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') addOption();
+  });
+
+  window.addOption = function() {
+    const val = input.value.trim();
+    if (!val) return;
+    if (options.length >= 20) return;
+    options.push(val);
+    input.value = '';
+    input.focus();
+    renderTags();
+    drawWheel(0);
+    updateUI();
+  };
+
+  window.removeOption = function(index) {
+    options.splice(index, 1);
+    renderTags();
+    drawWheel(0);
+    updateUI();
+  };
+
+  function updateUI() {
+    spinBtn.disabled = options.length < 2 || spinning;
+    hintText.style.display = options.length >= 2 ? 'none' : 'block';
+    resultDisplay.classList.remove('show');
+  }
+
+  function renderTags() {
+    optionsList.innerHTML = options.map(function(opt, i) {
+      return '<span class="option-tag">' + escapeHtml(opt) +
+        '<button class="remove-btn" onclick="removeOption(' + i + ')">&times;</button></span>';
+    }).join('');
+  }
+
+  function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+  }
+
+  function drawWheel(rotation) {
+    var w = canvas.width;
+    var h = canvas.height;
+    var cx = w / 2;
+    var cy = h / 2;
+    var r = Math.min(cx, cy) - 4;
+
+    ctx.clearRect(0, 0, w, h);
+
+    if (options.length === 0) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, 2 * Math.PI);
+      ctx.fillStyle = '#f0f0f0';
+      ctx.fill();
+      ctx.strokeStyle = '#ddd';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.fillStyle = '#bbb';
+      ctx.font = '18px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('Add options above', cx, cy);
+      return;
+    }
+
+    var n = options.length;
+    var sliceAngle = (2 * Math.PI) / n;
+
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(rotation);
+
+    for (var i = 0; i < n; i++) {
+      var startAngle = i * sliceAngle;
+      var endAngle = startAngle + sliceAngle;
+
+      ctx.beginPath();
+      ctx.moveTo(0, 0);
+      ctx.arc(0, 0, r, startAngle, endAngle);
+      ctx.closePath();
+      ctx.fillStyle = COLORS[i % COLORS.length];
+      ctx.fill();
+      ctx.strokeStyle = '#fff';
+      ctx.lineWidth = 2;
+      ctx.stroke();
+
+      ctx.save();
+      ctx.rotate(startAngle + sliceAngle / 2);
+      ctx.textAlign = 'right';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#fff';
+      ctx.font = 'bold ' + Math.min(16, Math.max(11, Math.floor(160 / n))) + 'px sans-serif';
+      ctx.shadowColor = 'rgba(0,0,0,0.4)';
+      ctx.shadowBlur = 3;
+
+      var label = options[i];
+      var maxLen = Math.floor(r / 10);
+      if (label.length > maxLen) label = label.substring(0, maxLen - 1) + '…';
+      ctx.fillText(label, r - 14, 0);
+      ctx.restore();
+    }
+
+    // center circle
+    ctx.beginPath();
+    ctx.arc(0, 0, 18, 0, 2 * Math.PI);
+    ctx.fillStyle = '#fff';
+    ctx.fill();
+    ctx.strokeStyle = '#333';
+    ctx.lineWidth = 2;
+    ctx.stroke();
+
+    ctx.restore();
+  }
+
+  window.spinWheel = function() {
+    if (options.length < 2 || spinning) return;
+    spinning = true;
+    spinBtn.disabled = true;
+    resultDisplay.classList.remove('show');
+
+    var n = options.length;
+    var sliceAngle = (2 * Math.PI) / n;
+    var extraSpins = 5 + Math.random() * 5;
+    var targetAngle = currentRotation + extraSpins * 2 * Math.PI + Math.random() * 2 * Math.PI;
+    var duration = 4000 + Math.random() * 1500;
+    var startTime = null;
+    var startRotation = currentRotation;
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function animate(timestamp) {
+      if (!startTime) startTime = timestamp;
+      var elapsed = timestamp - startTime;
+      var progress = Math.min(elapsed / duration, 1);
+      var easedProgress = easeOutCubic(progress);
+
+      currentRotation = startRotation + (targetAngle - startRotation) * easedProgress;
+      drawWheel(currentRotation);
+
+      if (progress < 1) {
+        requestAnimationFrame(animate);
+      } else {
+        currentRotation = targetAngle;
+        spinning = false;
+        spinBtn.disabled = false;
+
+        // The pointer is at the top (270 degrees / -π/2).
+        // Normalize the rotation to find which slice is under the pointer.
+        var normalizedAngle = currentRotation % (2 * Math.PI);
+        if (normalizedAngle < 0) normalizedAngle += 2 * Math.PI;
+
+        // Pointer is at top = -π/2 in canvas coords.
+        // The wheel is rotated by currentRotation, so the angle under the pointer
+        // in wheel-local coords is (-π/2 - rotation), normalized.
+        var pointerAngle = (-Math.PI / 2 - normalizedAngle) % (2 * Math.PI);
+        if (pointerAngle < 0) pointerAngle += 2 * Math.PI;
+
+        var winnerIndex = Math.floor(pointerAngle / sliceAngle);
+        winnerIndex = winnerIndex % n;
+
+        resultDisplay.textContent = '🎉 ' + options[winnerIndex] + '!';
+        resultDisplay.classList.add('show');
+      }
+    }
+
+    requestAnimationFrame(animate);
+  };
+
+  drawWheel(0);
+  updateUI();
+})();
+</script>
