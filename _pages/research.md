@@ -6,7 +6,7 @@ nav: true
 ---
 
 ## Jump to: 
-- [Google Scholar Page](https://scholar.google.com/citations?user=DBXWBqcAAAAJ&hl=en&oi=ao)
+- [Google Scholar Page](https://scholar.google.com/citations?user=3K09heEAAAAJ&hl=en&oi=ao)
 - [Alignment of Machine Explanations and Human Interpretatiosn](#alignment-of-machine-explanations-and-human-interpretations)
 - [Parsimonious Representation Learning](#parsimonious-representation-learning)
 - [Accessible and Implementable Biomedical Applications](#accessible-and-implementable-biomedical-applications)
